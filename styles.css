@@ -11,3 +11,24 @@ h1 {
   font-size: 3.5rem;
   color: #ffae00;
 }
+
+nav {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.nav-btn {
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: #ffae00;
+  color: #252525;
+}
