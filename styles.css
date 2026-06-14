@@ -32,3 +32,11 @@ nav {
   background-color: #ffae00;
   color: #252525;
 }
+
+.seccion {
+  display: none;
+}
+
+.seccion.activa {
+  display: block;
+}

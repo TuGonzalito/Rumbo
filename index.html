@@ -6,16 +6,48 @@
   <title>Rumbo</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+  
   <header>
     <h1>Rumbo</h1>
     <nav>
-      <button class="nav-btn">Hoy</button>
-      <button class="nav-btn">Tareas</button>
-      <button class="nav-btn">Hábitos</button>
-      <button class="nav-btn">Foco</button>
-      <button class="nav-btn">Dinero</button>
+      <button class="nav-btn" data-target="hoy">Hoy</button>
+      <button class="nav-btn" data-target="tareas">Tareas</button>
+      <button class="nav-btn" data-target="habitos">Hábitos</button>
+      <button class="nav-btn" data-target="foco">Foco</button>
+      <button class="nav-btn" data-target="dinero">Dinero</button>
     </nav>
   </header>
+
+  <main>
+    <section id="hoy" class="seccion activa">
+      <h2>Hoy</h2>
+      <p>Aquí verás el resumen de tu día.</p>
+    </section>
+
+    <section id="tareas" class="seccion">
+      <h2>Tareas</h2>
+      <p>Aquí irán tus tareas pendientes.</p>
+    </section>
+
+    <section id="habitos" class="seccion">
+      <h2>Hábitos</h2>
+      <p>Aquí seguirás tus hábitos y tus rachas.</p>
+    </section>
+
+    <section id="foco" class="seccion">
+      <h2>Foco</h2>
+      <p>Aquí tendrás el temporizador de concentración.</p>
+    </section>
+
+    <section id="dinero" class="seccion">
+      <h2>Dinero</h2>
+      <p>Aquí controlarás tus ingresos y gastos.</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
 </body>
+
 </html>
