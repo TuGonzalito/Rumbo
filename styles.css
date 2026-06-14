@@ -1,6 +1,7 @@
 body {
   background-color: #252525;
   padding: 48px;
+  margin: 0; /* Poner margen 0 para evitar que los navegadores pongan pequeños margenes, buenas practicas */
   font-family: sans-serif;
   color: #ffffff;
 }
