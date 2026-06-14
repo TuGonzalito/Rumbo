@@ -40,3 +40,8 @@ nav {
 .seccion.activa {
   display: block;
 }
+
+.nav-btn.activo {
+  background-color: #ffae00;
+  color: #252525;
+}
